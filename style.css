@@ -1,0 +1,257 @@
+/*==Style cÆ¡ báº£n cho website==*/
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.254em;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #3B8BBA;
+}
+a:hover,
+a:visited {
+    color: #265778;
+}
+
+/*==LÃªn khung cho website==*/
+#container {
+    padding-left: 150px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+#menu {
+    position: fixed;
+    height: 100%;
+    background-color: #191818;
+    width: 220px;
+    left: 0;
+}
+
+/*==Trang trÃ­ menu==*/
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#menu ul li {
+    line-height: 2.9em;
+    height: 2.9em;
+}
+#menu li a {
+    display: block;
+    color: #fff;
+    padding: 0 1em;
+    border-bottom: 1px solid #333;
+}
+#menu li:hover {
+    background-color: #454545;
+}
+
+/*==Trang trÃ­ khung content==*/
+#content {
+  padding: 1em 8em;
+}
+#header,
+.call-to-action {
+    text-align: center;
+}
+
+/*==Trang trÃ­ header cá»§a content==*/
+#header{}
+#slogan {
+    color: #8997A0;
+    font-size: 0.8em;
+}
+
+/*==Call to Action==*/
+.call-to-action {
+    padding: 1.5em 20%;
+    background: #EFEFEF;
+    border: 1px solid#E8E8E8;
+}
+
+/*==Chia cá»™t pháº§n content==*/
+.row {
+    overflow: auto;
+    margin: 1.5em auto;
+}
+.row .col {
+    float: left;
+    width: 31.3333%;
+    margin-right: 2.99%;
+}
+.row .col:last-child {
+    float: right;
+    margin-right: 0;
+}
+#cartebrunoy{
+  margin-top: 87px;
+}
+/*==Footer==*/
+#footer {
+  font-size: 85%;
+  border-top: 1px solid #E6E6E6;
+  color: #838383;
+  pading: 1em 3em;
+  float:right;
+  margin-right:15px;
+}
+/*==page2==*/
+#expe {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30;
+  text-decoration: underline;
+}
+#france {
+  float: left;
+  margin-left: 150px;
+}
+#vietnam {
+  float: left;
+  margin-left: 150px;
+}
+/*==page3==*/
+#forma {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30;
+  text-decoration: underline;
+}
+#tableau {
+  text-align: center;
+  float: left;
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+#compe {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30;
+  text-decoration: underline;
+}
+#tableau2 {
+  text-align: center;
+  float: left;
+  margin-left: 350px;
+  margin-right: 50px;
+}
+/*==page4==*/
+#info {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30;
+  text-decoration: underline;
+}
+#thumuc {
+  float: left;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+#defi {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30;
+  text-decoration: underline;
+}
+#definition {
+  float: left;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+/*==page5==*/
+#jaime {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30;
+  text-decoration: underline;
+}
+#voyager {
+  float: left;
+  margin-left: 150px;
+  }
+#sport {
+  float: left;
+  margin-left: 150px;
+}
+#jardin {
+  float: left;
+  margin-left: 150px;
+}
+#sapa {
+  margin-top: 50px;
+  float: left;
+  box-shadow: 8px 8px 5px; 
+}
+#gialai {
+  margin-top: 52px;
+  margin-left: 90px;
+  float: left;
+  width: 250px;
+  box-shadow: 8px 8px 5px;
+}
+#alsace2 {
+  margin-top: 40px;
+  margin-right: 170px; 
+  float: right;
+  width: 250px;
+  box-shadow: 8px 8px 5px;
+}
+#boxe {
+  width: 250px;
+  margin-top: 50px;
+  float: left;
+  box-shadow: 8px 8px 5px; 
+}
+#run {
+  margin-top: 36px;
+  margin-left: 90px;
+  float: left;
+  width: 250px;
+  box-shadow: 8px 8px 5px;
+}
+#random {
+  margin-top: 250px;
+  margin-right: 130px; 
+  float: right;
+  width: 250px;
+  box-shadow: 8px 8px 5px;
+}
+#poule {
+  margin-top: 50px;
+  margin-left: 50px;
+  float: left;
+  width: 280px;
+  box-shadow: 8px 8px 5px;
+}
+#poule2 {
+  margin-top: 36px;
+  margin-right: 170px; 
+  float: right;
+  width: 280px;
+  box-shadow: 8px 8px 5px;
+}
+/*==page6==*/
+#cont {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30;
+  text-decoration: underline;
+}
+#formulaire {
+  float: left;
+  margin-left: 150px;
+}
+
+.country{
+  
+}

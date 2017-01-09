@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+  <meta charset="UTF-8"/>
+  <title>Microprojet</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="menu">
+        <ul>
+          <li><a href="index.html"> Présentation</a></li>
+          <li><a href="k2.html">Expériences</a></li>
+          <li><a href="k3.html"> Formations et compétences</a></li>
+          <li><a href="k4.html">Réalisation informatique</a></li>
+          <li><a href="k5.html"> Centre d'intérêts</a></li>
+          <li><a href="k6.html">Contactez-moi</a></li>
+        </ul>
+      </div><!--END #menu-->
+        <div id="contact">
+          <h3 id="cont">CONTACTEZ-MOI</h3>  
+      </div><!--END #contact-->
+    <form id ="formulaire">
+Nom <input type=”text” name=”lastname”><br/>
+Prénom <input type=”text” name=”firstname”><br/>
+Date de naissance <input type="date" name="dateofbirth"><br/>
+Email <input type="email" name="email"><br/>
+Code postal <input type="number" name="codepostal" max="99999"><br/>
+Téléphone portable <input type="text" name="phonenumber" pattern="^0[67]\d{8}" title="Numéro à 10 chiffres sans espace et commençant par 06 ou 07"><br/>
+Sexe <input type="radio" name="Sexe" value="Homme"> Homme
+     <input type="radio" name="Sexe" value="Femme"> Femme  <br/>
+Type de contact <select name="dropdown"> 
+<option value="S1">Entreprise</option>
+<option value="S2">Personnel</option>
+</select> <br/>
+Message <textarea rows="5" cols="50" name="description" id="description" placeholder="Your message...">
+</textarea> <br/>
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="reset"  value="Reset" />
+</form>
+      <div id="footer">
+        <p>Copyright &copy; 2017 - Microprojet</p>
+      </div><!--END #footer-->
+    </div> <!--END #container-->
+    
+  </body>
+</html>
